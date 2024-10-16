@@ -1,72 +1,59 @@
 *{
-    padding: 0;
-    margin: 0;
+
     box-sizing: border-box;
 }
-.navbar{
-    float: left;
-}
+
 .logo{
-    float: left;
+    position: relative;
     padding: 5px;
-    margin: 5px;
-    font-weight: bold;
-    font-size: 24px;
+}
+.user{
+    position: relative;
+    float:right;
+   color: rgb(12, 131, 171);
+   background-color:rgb(204, 244, 244);
+    border-radius: 2px;
+    text-align: right;
+    padding: 5px;
 }
 ul{
     list-style: none;
-    text-align: center;
-    padding: 30px;
-}
+    text-align:center;
+    word-spacing: 10px; 
+} 
+
 li{
     display: inline;
+}
+.left{
+    display: inline-block;
+    width: 300px;
     padding: 20px;
 }
-
-.user{
-    float: right;
-    background:lightblue;
-    color: rgb(0, 68, 255);
-    height: 10px;
+.c1{
+    margin: 10%;
+    
+}
+div{
+    justify-content: center;
+    float:left;
+    padding: 120px;
+}
+.img{
+    
+  
+    align-items: center;
+    width: 200px;
+    height: 200px;    
+    
+}
+.lan{
+    color: rgb(13, 183, 240);
+}
+.button{
+    color: white;
+    background-color: rgb(36, 138, 228);
+    padding: 10px;
     border-radius: 5px;
-    }
-.hero{   
-    text-align: left;
-    padding: 80px 80px;
-    background-color: #fff;
-        }
-        .hero h1 {
-            font-size: 36px;
-            color: #333;
-            margin-bottom: 10px;
-        }
-       
-        .hero p {
-            text-align: auto;
-            padding: 10px 0px;
-            font-size: 18px;
-            color: #666;
-            max-width: 400px;
-            margin: 0 auto;
-            float: left;
-        }
-        .hero .button {
-           clear: both;
-            float: left;
-            margin-top: 20px;
-            padding: 15px 30px;
-            background-color: #007bff;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 20px;
-            font-size: 18px;
-        }
-        
-img{
-    width: 300px;
-    height: 300px;
-    margin-top: -250px;
-    float: inherit;
-    clear: both;
-    padding: 10px 10px;
-    }
+    
+}
