@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    float: left;
+}
+.logo{
+    float: left;
+    padding: 5px;
+    margin: 5px;
+    font-weight: bold;
+    font-size: 24px;
+}
+ul{
+    list-style: none;
+    text-align: center;
+    padding: 30px;
+}
+li{
+    display: inline;
+    padding: 20px;
+}
+
+.user{
+    float: right;
+    background:lightblue;
+    color: rgb(0, 68, 255);
+    height: 10px;
+    border-radius: 5px;
+    }
+.hero{   
+    text-align: left;
+    padding: 80px 80px;
+    background-color: #fff;
+        }
+        .hero h1 {
+            font-size: 36px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+       
+        .hero p {
+            text-align: auto;
+            padding: 10px 0px;
+            font-size: 18px;
+            color: #666;
+            max-width: 400px;
+            margin: 0 auto;
+            float: left;
+        }
+        .hero .button {
+           clear: both;
+            float: left;
+            margin-top: 20px;
+            padding: 15px 30px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 20px;
+            font-size: 18px;
+        }
+        
+img{
+    width: 300px;
+    height: 300px;
+    margin-top: -250px;
+    float: inherit;
+    clear: both;
+    padding: 10px 10px;
+    }
